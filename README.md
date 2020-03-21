@@ -10,9 +10,11 @@ _In this application, the user is able to naigate through different pages. Explo
 
 ## Specs
 
-* Behavior:
-	* Input:
-	* Output:
+* Behavior: User is able to navigate from one webpage to another.
+	* Input: *click link*
+	* Output: *re-route to connected webpage*
+
+	* Behavior: User is able to add or remove objects through the webpage.
 
 ## Setup/Installation Requirements
 
@@ -37,7 +39,9 @@ _In this application, the user is able to naigate through different pages. Explo
 ![](img/step6.png)
 * (8)_Follow steps 6 -7 to create a new table - you'll want to name this table 'clients' and add the respective columns as seen above. Don't forget to click the 'apply' button in the bottom right corner. Congratulations, your database has been created!_
 
+* (9) _Navigate to the root directory in your terminal and input the following commands one after another: `dotnet build` -> `dotnet run`_
 
+* (10) _Either (cmd +) click on the link `localhost:5000`, or enter `localhost:5000` into your web broswer_
 ## Known Bugs
 
 _No known bugs at this moment_
@@ -48,12 +52,17 @@ _If you have any questions, comments, concerns, or suggestions, feel free to ema
 
 ## Technologies Used
 
+* HTML
+* CSS
+* C#
+* MVC
+* MySQL
+* Command Terminal
+
 __
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*Licensed under the MIT opensource license.*
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
-Licensing
-An open source license details how others can use your code. MIT and GPL are the most common licenses. An MIT license means your code is free to use by anyone and you are not liable (Rails and jQuery use an MIT license). GPL also indicates free usage of the code but when used, the resulting work MUST be open source (Linux, Git and Wordpress use GPL).
+Copyright (c) 2020 **_Patrick Delaney_**
