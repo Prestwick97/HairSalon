@@ -22,6 +22,13 @@ _In this application, the user is able to naigate through different pages. Explo
 * _easy-to-understand_
 * _format_
 
+![](img/step1.png)
+![](img/step2.png)
+![](img/step3.png)
+![](img/step4.png)
+![](img/step5.png)
+![](img/step6.png)
+
 
 ## Known Bugs
 
