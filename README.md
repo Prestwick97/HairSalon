@@ -1,12 +1,12 @@
 # _Hair Salon_
 
-#### _Ann application that allows the user to view and edit different stylists details and clients._
+#### _An application that allows the user to view and edit different stylists details and clients._
 
 #### By _**Patrick Delaney**_
 
 ## Description
 
-_In this application, the user is able to naigate through different pages. Exploring a list of stylists, stylist details, and clients of said stylists. User has full ability to alter any of these fields._
+_In this application, the user is able to navigate through different pages. Exploring a list of stylists, stylist details, and clients of said stylists. User has full ability to alter any of these fields._
 
 ## Specs
 
