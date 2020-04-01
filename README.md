@@ -22,8 +22,8 @@ _In this application, the user is able to navigate through different pages. Expl
 * (2)_With the repository cloned, you're now ready to set up your database. Assuming you have all of the neccessary technology installed, continue with the following terminal commands:
 	* `CREATE DATABASE patrick_delaney;`
 	* `USE patrick_delaney`
-	* `CREATE TABLE stylists (id serial PRIMARY KEY, name VARCHAR (255), clientId INT(11));`
-	* `CREATE TABLE clients (id serial PRIMARY KEY, description VARCHAR(255), stylistId INT(11));`
+	* `CREATE TABLE stylists (stylistId serial PRIMARY KEY, name VARCHAR (255), clientId INT(11));`
+	* `CREATE TABLE clients (clientId serial PRIMARY KEY, description VARCHAR(255), stylistId INT(11));`
 Congratulations! You've created the databse.
 
 * (3) _Navigate to the root directory of the project in your terminal (`cd HairSalon`) and input the following commands one after another:_
