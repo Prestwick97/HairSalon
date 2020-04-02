@@ -21,7 +21,7 @@ _In this application, the user is able to navigate through different pages. Expl
 * (1)_Open your terminal, navigate to your desktop directory, and clone the HairSalon repository: `cd desktop` -> `git clone https://github.com/Prestwick97/HairSalon.git`._
 * (2)_With the repository cloned, you're now ready to set up your database. Assuming you have all of the neccessary technology installed, continue with the following terminal commands:
 	* `CREATE DATABASE patrick_delaney;`
-	* `USE patrick_delaney`
+	* `USE patrick_delaney;`
 	* `CREATE TABLE stylists (stylistId serial PRIMARY KEY, name VARCHAR (255), clientId INT(11));`
 	* `CREATE TABLE clients (clientId serial PRIMARY KEY, description VARCHAR(255), stylistId INT(11));`
 Congratulations! You've created the databse.
